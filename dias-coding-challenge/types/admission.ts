@@ -40,11 +40,6 @@ export const ADMISSIONS: Admission[] = [
                 name: "Dr. John Smith",
                 department: "Oncology"
             },
-            {
-                id: "4",
-                name: "Dr. Jane Smith",
-                department: "Pediatrics"
-            }
         ],
         department: "Oncology"
     },
@@ -78,11 +73,6 @@ export const ADMISSIONS: Admission[] = [
                 name: "Dr. John Williams",
                 department: "Hematology"
             },
-            {
-                id: "8",
-                name: "Dr. Jane Williams",
-                department: "Infectious Disease"
-            }
         ],
         department: "Hematology"
     },
@@ -97,11 +87,6 @@ export const ADMISSIONS: Admission[] = [
                 name: "Dr. John Brown",
                 department: "Cardiology"
             },
-            {
-                id: "10",
-                name: "Dr. Jane Brown",
-                department: "Neurology"
-            }
         ],
         department: "Cardiology"
     }
