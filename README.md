@@ -1,4 +1,4 @@
-# dias-coding-challenge
+# Dias Coding Challenge by Jan Carus
 
 From what I could gather from the assignment, I chose to implement a few pages with lists displaying a set of mock data relating to the assignment. A static sidebar allows for navigation between the list pages. 
 
