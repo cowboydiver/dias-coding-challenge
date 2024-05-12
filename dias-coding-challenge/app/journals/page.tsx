@@ -1,14 +1,14 @@
 import DefaultPageLayout from "@/components/DefualtPageLayout";
 import ListContainer from "@/components/ListContainer";
 import ListItem from "@/components/ListItem";
-import { DOCTORS } from "@/types/doctor";
+import { JOURNALS } from "@/types/journal";
 
-export default function Home() {
+export default function Journals() {
   return (
-    <DefaultPageLayout header="Doctors">
+    <DefaultPageLayout header="Journals">
       <ListContainer>
-        {Object.values(DOCTORS).map((doctor, index) => (
-          <ListItem key={index} data={doctor} /> 
+        {Object.values(JOURNALS).map((journal, index) => (
+          <ListItem key={index} data={journal} /> 
         ))}
       </ListContainer>
     </DefaultPageLayout>

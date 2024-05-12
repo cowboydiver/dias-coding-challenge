@@ -1,5 +1,4 @@
-import { Box, Card, Flex, Text } from "@chakra-ui/react";
-import { useId } from "react";
+import { Box, Card, Flex, SlideFade, Text } from "@chakra-ui/react";
 
 interface ListItemProps {
     data: {
@@ -9,14 +8,16 @@ interface ListItemProps {
 
 export default function ListItem({ data }: ListItemProps) {
   return (
-    <Card p="2">
-      <Flex direction="row" w="100%" justify="space-between" gap="5">
-        {Object.values(data).map((item, index) => (    
-            <Box key={index} w="100%">
-                <Text>{item}</Text>
-            </Box>
-        ))}
-      </Flex>
-    </Card>
+    <SlideFade in={true}>
+        <Card p="2">
+            <Flex direction="row" w="100%" justify="flex-start" gap="5">
+                {Object.values(data).map((item, index) => (    
+                    <Box key={index} w="100%">
+                        <Text>{item}</Text>
+                    </Box>
+                ))}
+            </Flex>
+        </Card>
+    </SlideFade>
   );
 }
